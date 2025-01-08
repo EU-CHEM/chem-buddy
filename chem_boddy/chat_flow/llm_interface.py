@@ -70,8 +70,8 @@ def check_env_file():
 
 
 def get_API_key():
-    os.environ['GEMINI_API_KEY'] = 'AIzaSyAr3g_xyt3QNiVNKj4iiadm1zJ4pZ-zQ4o'
-
+    #os.environ['GEMINI_API_KEY'] = 'AIzaSyAr3g_xyt3QNiVNKj4iiadm1zJ4pZ-zQ4o'
+    os.environ['GEMINI_API_KEY'] = 'AIzaSyBOFKUE3prQvEEO7gdKNOD1nGAYDbtaJt0'
     print("-------"*3,"LOOKING FOR GOOGLE GEMINI KEY","-------"*3, "\n")
     
     GEMINI_API_KEY=check_environment_variables()
